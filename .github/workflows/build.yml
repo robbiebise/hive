@@ -23,7 +23,7 @@ on:
   pull_request:
     branches:
       - 'master'
-  workflow_run:
+  workflow_dispatch:
 
 jobs:
   macos-jdk8:
